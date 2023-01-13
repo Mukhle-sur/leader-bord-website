@@ -263,6 +263,13 @@ main {
     .courses-parrent {
         flex-direction: column;
     }
+    .blog-content .blog-info {
+        flex-direction: column;
+        align-items: unset;
+    }
+    .blog-info .content {
+        margin-left: 0px;
+    }
 }
 @media screen and (min-width: 577px) and (max-width: 875px){
     .header-area {
